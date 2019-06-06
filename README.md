@@ -33,7 +33,7 @@
 |textIndex|标题首行缩进|number|30|
 |font|字体大小|number|32|
 ### 样式
-![input.png](0)
+![input](./images/input.png)
 
 
 
