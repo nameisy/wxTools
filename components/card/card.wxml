@@ -1,0 +1,24 @@
+<!--components/card/card.wxml-->
+<view class="card" >
+    <view class="card_type">
+        <view class="type_title">类型</view>
+        <view class="type_detail">{{detailData.category}}</view>
+        <view class="state">{{detailData.status}}</view>
+    </view>
+    <view class="card_type">
+        <view class="type_title">地点</view>
+        <view class="type_detail">{{detailData.address}}</view>
+        <view class="state"></view>
+    </view>
+    <view class="card_type">
+        <view class="type_title">描述</view>
+        <view class="type_detail">{{detailData.problem}}</view>
+        <view class="state"></view>
+    </view>
+    <view class="card_type">
+        <view class="type_title">保修人</view>
+        <view class="type_detail" style="flex:3">{{detailData.apply_user}}</view>
+        <view class="state" style="flex:5">{{detailData.created_at}}</view>
+    </view>
+</view>
+  

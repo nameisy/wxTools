@@ -1,0 +1,12 @@
+<!-- 可悬浮选择框 -->
+<view class="float-tab-list" bindtap="showTowBar">
+    {{title}}
+    <view class="towBar" hidden="{{isShowTowBar}}">
+        <block wx:for="{{listArr}}" wx:key="{{index}}">
+            <view class="list">
+                {{item}}
+            </view>
+        </block>
+    </view>
+</view>
+

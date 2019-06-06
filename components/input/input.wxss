@@ -1,0 +1,28 @@
+/* components/input/input.wxss */
+view {
+    box-sizing: border-box;
+}
+.input_wrap {
+    background: #fff;
+    display: flex;
+    border-bottom: solid 1px #eee;
+} 
+.input_wrap  .input {
+    flex: 1;
+}
+.input_wrap  .input input{
+    height: 108rpx;
+}
+
+.input_wrap_top {
+    font-size: 32rpx; 
+    background: #fff;
+    padding: 0 30rpx;
+    border-bottom:solid 1px#eee;
+}
+.input_wrap_top .input_title {
+    line-height: 70rpx;
+}
+.input_wrap_top .input input{
+    height: 80rpx;
+}

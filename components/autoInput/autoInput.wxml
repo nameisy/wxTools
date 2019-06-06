@@ -1,0 +1,24 @@
+<view class='text_box'>
+    
+</view>
+
+<view class="text_wrap">
+    <view class="text_title">
+        这是标题
+    </view>
+    <view class="text_area" hover-class="none" hover-stop-propagation="false">
+        <textarea 
+            fixed='true' 
+            contenteditable="true" 
+            auto-height="true" 
+            class='weui-textarea' 
+            name='commentValue' 
+            placeholder='评论'  
+            maxlength='50' 
+            value = "{{value}}"
+            bindinput = "onInput"
+            >
+        </textarea>
+    </view>
+</view>
+  

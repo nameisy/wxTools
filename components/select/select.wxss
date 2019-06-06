@@ -1,0 +1,24 @@
+/* components/select/select.wxss */
+view {
+    box-sizing: border-box;
+}
+.float-tab-list {
+    font-size: 30rpx;
+    text-align: center;
+    line-height: 108rpx;
+    background: #fff;
+    position: relative;
+    border-bottom: solid 1px #eee;
+    width: 330rpx;
+}
+
+.float-tab-list .towBar {
+    background: #fff;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+.float-tab-list .towBar .list {
+    color: #000;
+    border-bottom: solid 1px #fff;
+}

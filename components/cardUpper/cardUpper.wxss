@@ -1,0 +1,45 @@
+.cover_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+.cardBox {
+  width: 100%;
+  height: 500rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 18rpx 18rpx 0 0;
+}
+.cardBox .card_title {
+    height: 98rpx;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #eee;
+}
+.cardBox .card_title .title {
+    line-height: 98rpx;
+    padding: 0 18rpx;
+    font-size: 30rpx;
+}   
+.list_item {
+    line-height: 100rpx;
+    text-align: center;
+    color: #000;
+    font-size: 30rpx;
+}
+.selected {
+    background: rgba(0, 0, 0, .3);
+    height: 100rpx;
+}

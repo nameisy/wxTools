@@ -1,0 +1,21 @@
+<!-- 点击立即购买 弹出购买遮罩层 -->
+<view class="cover_screen" bindtap="hideBuyModal" wx:if="{{showModalStatus}}"></view>
+
+<!-- 点击立即购买 弹窗 -->
+<view animation="{{animationData}}" class="cardBox" wx:if="{{showModalStatus}}">
+    <view class='card_title'>
+        <view class='title'>
+            这是标题
+        </view>
+        <view class='title cancle' bind:tap="hideBuyModal">
+            取消
+        </view>
+    </view>
+    <view class="" >
+        <picker-view indicator-class="selected" style="width: 100%; height: 402rpx;" value="{{value}}" bindchange="bindChange">
+            <picker-view-column>
+                <view wx:for="{{years}}" class="list_item">{{item}}年</view>
+            </picker-view-column>
+        </picker-view>
+    </view>   
+</view>

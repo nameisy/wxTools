@@ -1,0 +1,52 @@
+.photos {
+    border-bottom: solid 1px #eee;
+    padding: 32rpx 0;
+}
+
+.photos .photos_title {
+    padding-left: 30rpx;
+    font-size: 30rpx;
+    margin-bottom: 24rpx;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 30rpx;
+}
+
+.item {
+    position: relative;
+    margin: 10rpx 5rpx;
+    width: 104rpx;
+    height: 104rpx;
+}
+
+.item image {
+    width: 100%;
+    height: 100%;
+}
+
+.item .addIcon {
+    position: relative;
+    width: 104rpx;
+    height: 104rpx;
+    text-align: center;
+    line-height: 104rpx;
+    font-size: 80rpx;
+    background: #f2f2f2;
+    color: #555;
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    height: 36rpx;
+    font-size: 22rpx;
+    font-weight: 700;
+    padding: 0 8rpx 0 10rpx;
+}

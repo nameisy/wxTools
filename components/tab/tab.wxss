@@ -1,0 +1,44 @@
+/* components/tab/tab.wxss */
+.contain{
+    width: 100%;
+    height: 100%;
+}
+.tab{
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    z-index: 100;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 100rpx;
+    border-bottom: solid 1px #fff;
+}
+.tab-item{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 30rpx;
+    color: #8f9193;
+    background: #fff;
+}
+.active{
+    color: #ff502c;
+    
+}
+.active text {
+    border-bottom: solid 6rpx #ff502c;
+    box-sizing: border-box;
+    padding: 20rpx 6rpx;
+}
+.content{
+    padding-top: 100rpx;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30rpx;
+    background: #fff
+}
+.content-item{
+    overflow-y: scroll
+}
+   

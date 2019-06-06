@@ -1,0 +1,31 @@
+/* components/card/card.wxss */
+.card {
+    height: 280rpx;
+    background: #fff;
+    font-size: 30rpx;
+    padding: 20rpx 0;
+    padding-right: 30rpx;
+    border-radius: 4rpx;
+    box-shadow: #fff;
+    margin-bottom: 20rpx;
+    color: #999
+}
+.card_type {
+    display: flex
+}
+.card_type .type_title{
+    flex: 3;
+    text-align: right;
+    line-height: 60rpx;
+}
+.card_type .type_detail{
+    flex: 6;
+    margin-left: 60rpx;
+    line-height: 60rpx;
+    color: #000;
+}
+.card_type .state{
+    flex: 2;
+    line-height: 60rpx;
+    text-align: right;
+}

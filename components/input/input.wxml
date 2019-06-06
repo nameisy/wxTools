@@ -1,0 +1,17 @@
+<view class="input_wrap" style="height:{{height}}rpx;font-size:{{font}}rpx;">
+    <view class="input_title" style="height:{{height}}rpx;flex: 0 1 {{width}}rpx;text-indent:{{textIndex}}rpx;line-height:{{lineHeight}}rpx;">
+        {{title}}
+    </view>
+    <view class="input" style="height:{{height}}rpx;">
+        <input placeholder="{{placeholder}}" bindinput="onInput" style="height:{{height}}rpx;"/>
+    </view>
+</view>
+
+<view class="input_wrap_top" hover-class="none" hover-stop-propagation="false">
+    <view class="input_title">
+        这里是标题
+    </view>
+    <label for="input" class="input">
+        <input placeholder="{{placeholder}}" />
+    </label>
+</view>
