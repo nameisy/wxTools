@@ -44,7 +44,6 @@ Component({
       this.setData({
         lineHeight : that.properties.height
       })
-      console.log(this.data.lineHeight)
     },
     moved: function () { },
     detached: function () { },
@@ -57,7 +56,7 @@ Component({
       this.setData({
         value : e.detail.value
       })
-      this.triggerEvent('myevent', this.data)
+      this.triggerEvent('change', e.detail.value)
     }
   }
 })
