@@ -56,7 +56,7 @@ Component({
       this.setData({
         value : e.detail.value
       })
-      this.triggerEvent('change', this.data)
+      this.triggerEvent('change', e.detail.value)
     }
   }
 })
